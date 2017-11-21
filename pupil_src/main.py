@@ -17,6 +17,8 @@ import os, sys, platform
 
 app = 'capture'
 
+print('Yeah')
+
 if getattr(sys, 'frozen', False):
     if 'pupil_service' in sys.executable:
         app = 'service'
